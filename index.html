@@ -1,159 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Invitation</title>
-<link rel="icon" type="image/png" sizes="100%" href="https://pngtree.com/so/valentines-day">
-<style>
-  body {
-    margin: 0; 
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #000000; 
-    background-image: 
-url('https://i.pinimg.com/736x/2c/d0/bd/2cd0bded0d45636fa6ee6515dadc9db3.jpg'),                     url('https://i.pinimg.com/736x/6c/77/5f/6c775fe4551b95f05e899684cdcf4102.jpg')
-      ;
-    background-position: bottom left, bottom right;
-    background-repeat: no-repeat, no-repeat;
-    background-size: auto, auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-  .container {
-    text-align: center;
-    max-width: 600px;
-    padding: 30px;
-    border-radius: 15px;
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Added shadow */
-  }
-
-  p {
-    font-size: 18px; /* Reduced font size */
-    color: #660033; /* Dark pink text */
-    margin-bottom: 20px; /* Reduced spacing between rows */
-    font-family: 'Segoe Script', cursive; /* Romantic font */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Added text shadow */
-    display: inline-block; /* Typewriter compatibility */
-    overflow: hidden;
-    white-space: nowrap;
-    visibility: hidden; /* Initially hidden */
-  }
-
-  .gif-container {
-    width: 80%;
-    max-width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Added shadow */
-    margin: 0 auto; /* Center the gif */
-    margin-bottom: 20px; /* Reduced margin */
-  }
-
-  img {
-    width: 100%;
-    border-radius: 10px;
-  }
-
-  button {
-    padding: 12px 24px;
-    font-size: 18px;
-    border: 2px solid #ff99cc; /* Light pink border */
-    border-radius: 25px;
-    cursor: pointer;
-    margin: 10px;
-    transition: all 0.3s ease;
-    outline: none;
-    background-color: #ff3399; /* Rose pink */
-    color: #fff;
-  }
-
-  button:hover {
-    background-color: #e6005c; /* Lighter shade of pink */
-    border-color: #e6005c; /* Lighter shade of pink border on hover */
-    transform: scale(1.1);
-  }
-
-  button:focus {
-    box-shadow: 0 0 0 3px #ff66b3; /* Pink outline when focused */
-  }
-
-  .shake {
-    animation: shake 0.5s ease-in-out;
-  }
-
-  @keyframes shake {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
-    50% { transform: translateX(5px); }
-    75% { transform: translateX(-5px); }
-    100% { transform: translateX(0); }
-  }
-
-  @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-
-  @keyframes blink-caret {
-    from, to { border-right-color: transparent; }
-    50% { border-right-color: black; }
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-<div class="invitation-container">
-        <div class="header">
-            <p class="typewriter" id="line1">DEAR, <span class="highlight">Aknur!</span></p>
-        </div>
-        <div class="message">
-            <p class="typewriter" id="line2">I invite you to a  <span class="highlight">ROMANTIC EVENING</span></p>
-        </div>
-        <div class="details">
-            <p class="typewriter" id="line3"><b>FRIDAY</b> 14.02.2025 19:00</p> 
-        </div>
-        <div class="location">
-            <p class="typewriter" id="line4">  <b>LOCATION:</b> Almaty, Aubakirova Art Space</p>
-        </div>
-        <div class="footer">
-            <p class="typewriter" id="line5">with love, your Aidos...</p>
+    <div class="flowers-container">
+        <div class="flower flower-1"></div>
+        <div class="flower flower-2"></div>
+        <div class="flower flower-3"></div>
+    </div>
+    
+    <div class="container">
+        <div class="invitation-card">
+            <div class="card-border">
+                <div class="hearts">
+                    <span class="heart-icon">💚</span>
+                    <span class="heart-icon">💚</span>
+                    <span class="heart-icon">💚</span>
+                </div>
+                
+                <div class="ribbon">
+                    <span class="ribbon-text">Special Invitation</span>
+                </div>
+
+                <h1>My sweet, balapan</h1>
+                
+                <div class="content">
+                    <div class="date-wrapper">
+                        <i class="fas fa-calendar-heart"></i>
+                        <p class="date">March 8th, 2024</p>
+                    </div>
+                    
+                    <div class="message-wrapper">
+                        <p class="message">On this special day, I would be honored to take you to a dinner.</p>
+                    </div>
+                    
+                    <div class="time-wrapper">
+                        <i class="fas fa-clock"></i>
+                        <p class="time">18:00</p>
+                    </div>
+                    
+                    <div class="special-note-wrapper">
+                        <p class="special-note">I'll come to pick you up</p>
+                                             
+                    </div>
+
+                    <div class="decoration">
+                        <span class="sparkle">✨</span>
+                        <span class="heart">💚</span>
+                        <span class="sparkle">✨</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-  <div class="gif-container">
-    <img src="https://media3.giphy.com/media/ZP7zODs282XveerKMI/giphy.gif?cid=6c09b952lag8kkpz3k714tmh2wz5mck1sxegjd7mivscmr2e&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" alt="Valentine's Day Image">
-  </div>
-  <!--<button id="yesButton">Yes!</button>
-  <button id="noButton">Okey)</button>-->
-</div>
 
-<script>
-  const lines = [
-    'line1', 'line2', 'line3', 'line4', 'line5', 'line6', 'line7'
-  ];
-
-  function typeLine(index) {
-    if (index >= lines.length) return;
-    const line = document.getElementById(lines[index]);
-    line.style.visibility = 'visible';
-    line.style.animation = `typing 4s steps(30, end), blink-caret 0.75s step-end infinite`;
-    setTimeout(() => typeLine(index + 1), 4000);
-  }
-
-  document.addEventListener('DOMContentLoaded', () => {
-    typeLine(0);
-  });
-
-  function noClicked() {
-    alert("Aykog testingi.");
-    document.getElementById('noButton').classList.add('shake');
-    setTimeout(function() {
-      document.getElementById('noButton').classList.remove('shake');
-    }, 500);
-  }
-</script>
+    <div class="floating-hearts"></div>
 </body>
 </html>
